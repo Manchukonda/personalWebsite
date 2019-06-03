@@ -41,3 +41,6 @@ Commands to deploy:
 3. firebase login
 4. firebase init
 5. firebase deploy
+
+Need to solve: 
+3 buttons issue  and promise notification.
