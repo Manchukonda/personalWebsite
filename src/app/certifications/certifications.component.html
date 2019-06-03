@@ -1,0 +1,34 @@
+
+<div *ngFor="let x of certificateDetails" class="container-fluid main-border">
+  <div  class="row padding">
+    <div class="col-sm"></div>
+    <div class="col-sm"><img class="small_image_size" src= {{x.imagePath}}/></div>
+    <div class="col-sm paddingTop5">
+      <!--<div class="container-fluid paddingBotttom5">
+        <div class="row">
+            <div>College: &nbsp; </div>
+            <div><b>{{ x.collegeName}}</b></div>
+        </div>
+      </div>-->
+      <div class="container-fluid paddingBotttom5">
+          <div class="row">
+              <div>Name:&nbsp; </div>
+              <div><b>{{ x.name}}</b></div>
+          </div>
+      </div>
+      <div class="container-fluid paddingBotttom5">
+          <div class="row">
+              <div>Year:&nbsp; </div>
+              <div><b>{{ x.year}}</b></div>
+          </div>
+      </div>
+      <div class="container-fluid paddingBotttom5">
+          <div class="row">
+              <div>Level :&nbsp; </div>
+              <div><b>{{ x.standard}}</b></div>
+          </div>
+        </div>
+    </div>
+    <div class="col-sm"></div>
+  </div>
+</div>

@@ -1,0 +1,66 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.thanks_note{
+    height: 86px;
+    padding-top: 1%;
+    font-size: 180%;
+}
+
+.icon{
+    height: 50px;
+    border-radius: 10px;
+    width: 90px;
+}
+
+.largeicon{
+    height: 100px;
+    border-radius: 10px;
+    width: 120px;
+}
+
+.div_magic{
+    padding-bottom: 5px;
+    padding-top:5px;
+}
+
+.text_top_magic{
+    padding:2%;
+}
+
+.border_nagic{
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.padding-class{
+    padding: 20px;
+}
+
+.pading-right{
+    padding-right:5px;
+}
+
+.smallicon{
+    height: 50px;
+    border-radius: 10px;
+    width: 50px;
+    display: block;
+    margin:auto;
+}
+
+.padding4{
+    padding:4%;
+    border-radius:1%;
+    border:1px solid;
+}
+
+.btn-class{
+    margin-left: 43%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.div_magic-social{
+    padding: 3%;
+}

@@ -1,0 +1,110 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+
+.image-size{
+    height: 100%;
+    width:100%;
+}
+
+
+.padding{
+    padding:2%
+}
+
+.main-border {
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.small_image_size{
+    height: 90% !important;
+    width: 100% !important;
+    border-radius: 30%;
+    padding-top: 15%;
+}
+
+.paddingBotttom5{
+    padding-bottom: 4%;
+}
+
+.paddingBotttom7{
+    padding-bottom: 7%;
+}
+
+.paddingBotttom2{
+    padding-bottom: 2%;
+}
+
+.buttonCss{
+    display: grid;
+}
+
+
+.paddingPersonal{
+    text-align: right;
+    padding-top:7%;
+    padding-bottom: 10%;
+    
+}
+
+.footer{
+    padding-top:5%;
+    padding-bottom: 1%;
+    background-color:lightgrey;
+    border:1px solid;
+}
+
+.fontDesign{
+    font-size: calc(1vw + 1.5vh + 2vmin);
+    color: white;
+}
+.fontDesignHalf{
+    font-size: calc(1vw + 1vh + 1.5vmin);
+    color: white;
+
+}
+
+.htmlCode{
+    color:green;
+    font-size: calc(1vw + 1vh + 1vmin);
+}
+
+#fullBody{
+    background-image: url("../../assets/profile/backgroundImage.jpg");
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    background-size:100% 100%;
+}
+
+.paddingCenter{
+    padding-top:5%;
+}
+
+.smallicon{
+    height: 5%;
+    border-radius: 100%;
+    width: 5%;
+    display: block;
+    margin: auto;
+}
+
+.smallicon:hover{
+    cursor: pointer;
+}
+
+.smalliconChange{
+    height: 70%;
+    border-radius: 100%;
+    width: 10%;
+    display: block;
+    margin-right:20px;
+}
+
+.borderTop{
+    border-top:1px solid;
+}
+
+.paddingMagic{
+    padding-right: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}

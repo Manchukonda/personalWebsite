@@ -1,0 +1,45 @@
+<div *ngFor="let x of workExperienceDetails" class="container-fluid main-border">
+  <div  class="row padding">
+    <div class="col-sm"></div>
+    <div class="col-sm"><img class="small_image_size" src= {{x.logo}}/></div>
+    <div class="col-sm paddingTop5">
+      <!--<div class="container-fluid paddingBotttom5">
+        <div class="row">
+            <div>College: &nbsp; </div>
+            <div><b>{{ x.collegeName}}</b></div>
+        </div>
+      </div>-->
+      <div class="container-fluid paddingBotttom5">
+          <div class="row">
+              <div>Company Name:&nbsp; </div>
+              <div><b>{{ x.name}}</b></div>
+          </div>
+      </div>
+      <div class="container-fluid paddingBotttom5">
+          <div class="row">
+              <div>Work Dates:&nbsp; </div>
+              <div><b>{{ x.dates}}</b></div>
+          </div>
+      </div>
+      <div class="container-fluid paddingBotttom5">
+          <div class="row">
+              <div>Address :&nbsp; </div>
+              <div><b>{{ x.address}}</b></div>
+          </div>
+        </div>
+      <div class="container-fluid paddingBotttom5">
+            <div class="row">
+                <div>Role :&nbsp; </div>
+                <div><b>{{ x.Role}}</b></div>
+            </div>
+          </div>
+      <div class="container-fluid paddingBotttom5">
+              <div class="row">
+                  <div>Description :&nbsp; </div>
+                  <div><b>{{ x.Description}}</b></div>
+              </div>
+            </div>
+    </div>
+    <div class="col-sm"></div>
+  </div>
+</div>

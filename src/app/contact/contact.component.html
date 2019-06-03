@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="row justify-content-md-center">
+    <div class="col-md-auto thanks_note">
+        Enter your details for contact!
+    </div>
+</div>
+
+<form class="padding4"  (ngSubmit)="submit()">
+    <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="firstName">First Name *</label>
+          <input [(ngModel)]="firstName" name="firstName" type="text" class="form-control" id="firstName" placeholder="First Name" required>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="lastName">Last Name *</label>
+          <input  [(ngModel)]="lastName"  name = "lastName" type="text" class="form-control" id="lastName" placeholder="Last Name" required>
+        </div>
+      </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="email">Email *</label>
+        <input  [(ngModel)]="email" name="email" type="email" class="form-control" id="email" placeholder="Email" required>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="phoneNumber">Phone Number *</label>
+        <input  [(ngModel)]="phone"  name="phone" type="text" class="form-control" id="phoneNumber" placeholder="Phone Number"  required>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputAddress">Description</label>
+      <textarea  [(ngModel)]="description" name="description" class="form-control" id="description" placeholder="Brief!"></textarea>
+    </div>
+    <button type="submit" class="btn btn-success btn-class">Send</button>
+  </form>
+

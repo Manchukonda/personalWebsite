@@ -1,0 +1,80 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+div.corousel-inner.my-inner {       
+    border-top: 10px;
+    border-left: 10px;
+    border-right: 10px;
+    border-bottom: 00px;
+    border-color: #fff;
+    border-style: solid;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: white;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: grey;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    background-color: black;
+}
+
+.carousel-caption {
+    color: black;
+}
+
+.image-size{
+    height: 100%;
+    width:100%;
+}
+
+
+.padding{
+    padding:2%
+}
+
+.main-border {
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.small_image_size{
+    height: 100% !important;
+    width: 90% !important;
+}
+
+.paddingBotttom5{
+    padding-bottom: 4%;
+}
