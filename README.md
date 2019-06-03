@@ -25,3 +25,19 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+Add the node_modules folder.
+
+Commands to add bootstrap and jquery: npm install bootstrap jquery 
+and add them in angular.json with proper path.
+
+Command to start the server: ng serve
+
+command to install firebase: npm install firebase angularfire2
+
+Commands to deploy:
+1. npm install -g firebase-tools
+2. ng build --prod
+3. firebase login
+4. firebase init
+5. firebase deploy
