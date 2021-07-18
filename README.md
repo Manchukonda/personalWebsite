@@ -10,16 +10,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Development server
 
 We need to make sure Angular CLI is installed. 
-To install angular cli on ubuntu: (Follow the commands)
-sudo apt update
-sudo apt install nodejs
-sudo apt install npm
-sudo npm cache clean -f
-sudo npm install -g n 
-sudo n stable 
-sudo npm install -g @angular/cli
-sudo ng --version
-sudo npm install --save-dev @angular-devkit/build-angular
+To install angular cli on ubuntu: (Follow the commands)<br/>
+sudo apt update<br/>
+sudo apt install nodejs<br/>
+sudo apt install npm<br/>
+sudo npm cache clean -f<br/>
+sudo npm install -g n <br/>
+sudo n stable <br/>
+sudo npm install -g @angular/cli<br/>
+sudo ng --version<br/>
+sudo npm install --save-dev @angular-devkit/build-angular<br/>
 
 Once everything goes good, 
 
